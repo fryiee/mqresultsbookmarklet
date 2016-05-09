@@ -18,5 +18,5 @@ $("table[id$='grdResultDetails'] tbody tr").each(function() {
         grade += 4;
     }
 });
-alert("Your Weighted Average Mark is " + (total / c).toFixed(2));
-alert("Your GPA is " + (grade / c).toFixed(2));
+alert("Your Weighted Average Mark is " + (total / c).toFixed(3));
+alert("Your GPA is " + (grade / c).toFixed(3));
